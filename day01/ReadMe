@@ -1,0 +1,18 @@
+Day 01 – To-Do List App (HTML, CSS, JavaScript)
+
+Welcome to Day 1 of my #100DaysOfFullStack challenge!  
+Today, I built a basic To-Do List App (surprise surprise) using only HTML, CSS and Vanilla JavaScript.
+
+Its features include:
+- Add a task to your to-do list
+- Prevents adding empty tasks
+- Clears the input field after adding
+- Dynamically updates the list in real-time
+- Simple and responsive UI with centered layout
+
+ Tech Stack:
+- HTML5 - Page structure
+- CSS3 – Styling and layout
+- JavaScript – DOM manipulation and logic
+
+Day01 wasn't an utter disappointment but I realised I'm still slow. Looking forward to day02!
