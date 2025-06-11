@@ -17,4 +17,16 @@ h1 {
     top:0;
     z-index: 1000;
 }
+
+li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px auto;
+    width: 300px;
+    background-color: #f9f9f9;
+    font-family: sans-serif;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    text-align: left;
+  }
   

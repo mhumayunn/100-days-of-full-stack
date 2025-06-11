@@ -15,7 +15,7 @@ function AddTask() {
     const newItem = document.createElement("li");
     console.log("after creating new item")
     //set the text of the list item
-    newItem.innertext=task;
+    newItem.innerText=task;
     //add the list item to the list
     list.appendChild(newItem);
     console.log("after append!")
