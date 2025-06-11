@@ -4,25 +4,35 @@
     <title>
         Just Do It!
     </title>
+    <link rel="stylesheet" href="ToDo.css" />
 </head>
-    <h1>
+<body>
+    <div class = "ribbon-bar">
+        Welcome to Just Do It! | Stay focused. Stay Organised.
+    </div>
+    <h1 style="text-align: center;" >
         Just Do It!
     </h1>
-    <h2>
+    <h2 style ="text-align: center;"> 
         This is your place to note down everything you need to do!
     </h2>
-    <p> 
+    <p style = "text-align: center;"> 
         Stay organised with our Just Do It To-Do app! <br>
-
-        Please follow me and check out my stuff at 
-        <a href = "https://github.com/mhumayunn/100-days-of-full-stack/tree/main"> My Github Repo ! </a> <br>
-
-        This is my image: <img src="https://pbs.twimg.com/profile_images/1419218017700007939/2ElJFcIR_400x400.jpg"><br>
     </p>
-    <p style="color:red;"> This is me just testing out hmtl rules</p>
-    <pre>
-        I dont know what this is.
-        But I'm testing regardless.
-    </pre>
+    <!-- This is the To-Do section -->
+    <div style="text-align: center; margin-top:30px;">
+        <input type="text" id="toddo-input" placeholder="Enter a task here!" />
+        <button onclick="addTask()">Add Task</button>
+
+        <!-- The uordered list that will be addded dynamically: -->
+        <ul id ="todo-list" style="list-style:none; padding:0; margin-top:20px;"></ul>
+    </div>
 </body>
+<footer>
+    <p style="text-align: center; color: darkslategrey;">
+        Made with love by Humayun - Day 01 of 100 <br>
+        <img src="https://pbs.twimg.com/profile_images/1419218017700007939/2ElJFcIR_400x400.jpg" width="50" height="50"><br>
+        If you want to check out the rest of my stuff, you can do so from <a href="https://github.com/mhumayunn/100-days-of-full-stack/tree/main"> here!</a> <br>
+    </p>
+</footer>
 </html>
